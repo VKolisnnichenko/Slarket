@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="app_info_screen_text">Discover a world of delicious possibilities with a wide
+        selection of restaurants, primarily featuring pizzerias that serve up mouth-watering dishes.
+        Whether you're craving a classic margherita, a gourmet specialty, or something more
+        adventurous, you'll find the perfect meal to satisfy your taste buds. With fast and reliable
+        delivery, your favorite foods will be at your door in no time, ensuring a delightful dining
+        experience without the wait!
+    </string>
+    <string name="empty_basket">Your basket is empty :( ... \nTry to add something first</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="favourites">Favourites</string>
+    <string name="recent_orders">Recent orders</string>
+    <string name="basket">Basket</string>
+    <string name="feel_free_to_write_your_wishes">Feel free to write your wishes...</string>
+    <string name="add_to_basket">Add to basket</string>
+    <string name="replace_items_in_basket">Replace Items in Basket?</string>
+    <string name="you_already_have_items_in_your_basket">Your basket already contains items from
+        another restaurant. Do you want to remove them and add the new item?
+    </string>
+</resources>

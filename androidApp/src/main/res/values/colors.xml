@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="silver">#D2D2D2</color>
+    <color name="light_silver">#F3F3F3</color>
+    <color name="black">#000000</color>
+    <color name="orange_price">#EE851D</color>
+    <color name="white">#fafafa</color>
+    <color name="beige">#FFEFDF</color>
+</resources>
