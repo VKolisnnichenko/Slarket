@@ -161,7 +161,7 @@ fun RestaurantDetailsContent(
 
         ReplaceBasketDialog(
             showDialog = details.displayBasketDialog,
-            onDismiss = { details.displayBasketDialog = false },
+            onDismiss = { viewModel.hideBasketDialog() },
             onConfirm = { viewModel.replaceBasketItem() }
         )
 

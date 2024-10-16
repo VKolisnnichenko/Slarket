@@ -7,7 +7,7 @@ data class RestaurantDetailsModel(
      val headerImageUrl : String,
      val pizzaList : List<PizzaModel>,
      var showBasket : Boolean = false,
-     var displayBasketDialog : Boolean = false,
+     var displayBasketDialog: Boolean = false,
      var basketItemModel: BasketItemModel = BasketItemModel(),
      var isFavourite : Boolean = false
 )

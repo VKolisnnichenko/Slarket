@@ -113,17 +113,26 @@ class RestaurantDetailsViewModel : PlatformViewModel() {
         }
     }
 
+    fun hideBasketDialog() {
+        if (restDetailsState.value is RestDetailsStateSuccess) {
+            val model = (restDetailsState.value as RestDetailsStateSuccess).restaurantDetailsModel
+            model.displayBasketDialog = false
+            scope.launch {
+                _restDetailsState.emit(RestDetailsStateSuccess(model))
+            }
+        }
+    }
+
     fun replaceBasketItem() {
         if (restDetailsState.value is RestDetailsStateSuccess)
-            scope.launch(Dispatchers.IO) {
-
+            scope.launch {
                 val model =
                     (restDetailsState.value as RestDetailsStateSuccess).restaurantDetailsModel
                 scope.launch(Dispatchers.IO) {
                     clearBasketUseCase.run(Unit)
                     addBasketDishUseCase.run(model.basketItemModel)
-
                     model.displayBasketDialog = false
+                    _restDetailsState.emit(RestDetailsStateSuccess(model))
                 }
             }
     }

@@ -11,6 +11,7 @@
 		058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */; };
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
 		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
+		C029E3FB2CC03E880089DE9C /* TestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = C068FE052CAC5E1B008EAA35 /* TestPlan.xctestplan */; };
 		C049EBED2C63F10600DC7F16 /* RestaurantDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C049EBEC2C63F10600DC7F16 /* RestaurantDetailsScreen.swift */; };
 		C04B16412CA072EB0054FF7E /* BasketScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04B16402CA072EB0054FF7E /* BasketScreen.swift */; };
 		C04CBDA22C5531E40003B63C /* AboutListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04CBDA12C5531E40003B63C /* AboutListView.swift */; };
@@ -172,6 +173,7 @@
 			files = (
 				058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */,
 				058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */,
+				C029E3FB2CC03E880089DE9C /* TestPlan.xctestplan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
